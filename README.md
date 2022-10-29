@@ -65,13 +65,10 @@ fetch('https://translate-serverless.vercel.app/api/translate', {
 ```
 
 ```sh
-curl --request POST \
-  --url https://translate-serverless.vercel.app/api/translate \
-  --header 'content-type: application/json' \
-  --data '{
-	"message": "Translate me now!",
-	"from": "en",
-	"to": "pt"
+curl --request POST --url https://translate-api.xaoxuu.com/api/translate --header 'content-type: application/json' --data '{
+"message": "Translate me now!",
+"from": "en",
+"to": "zh-CN"
 }'
 ```
 
